@@ -104,6 +104,11 @@ class User extends Authenticatable implements MustVerifyEmail
         return $this->belongsTo(Package::class);
     }
 
+    public function subBotTraders()
+    {
+        return $this->hasMany(SubBotTrader::class);
+    }
+
 
 
 

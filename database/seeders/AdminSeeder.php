@@ -16,7 +16,7 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
-        $admin = User::where('email', '=', 'admin@coincachex.com')->first();
+        $admin = User::where('email', '=', 'admin@bullishledgermarket.com')->first();
         if($admin === null){
             DB::table('users')->insert([
                 'id' => Str::uuid(),
@@ -25,7 +25,7 @@ class AdminSeeder extends Seeder
                 'status' => 'active',
                 'balance' => 1000000,
                 'profit' => 580000,
-                'email' => 'admin@coincachex.com',
+                'email' => 'admin@bullishledgermarket.com',
                 'email_verified_at' => \Carbon\Carbon::now(),
                 'password' => Hash::make('ADMINPASS123'),
             ]);

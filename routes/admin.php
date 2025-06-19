@@ -38,4 +38,9 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::get('closed-trades', [TradeController::class, 'closedTrades'])->name('closedTrades');
     Route::post('close/trade/{id}', [TradeController::class, 'closeTrade'])->name('closeTrade');
 
+    // BotTrader routes
+    Route::get('bot_trader/index', [\App\Http\Controllers\Admin\BotTraderController::class, 'index'])->name('bot_trader.index');
+    Route::post('bot_trader/store', [\App\Http\Controllers\Admin\BotTraderController::class, 'store'])->name('bot_trader.store');
+    Route::put('bot_trader/update/{id}', [\App\Http\Controllers\Admin\BotTraderController::class, 'update'])->name('bot_trader.update');
+
 });

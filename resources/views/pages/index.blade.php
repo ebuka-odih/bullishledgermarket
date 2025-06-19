@@ -29,14 +29,14 @@
                                     Make real gains on a live account or hone your skills on a free demo
                                 </p>
                                 <div class="banner__btn">
-                                    <a href="blog-details.html" class="tg-btn">
+                                    <a href="{{ route('register') }}" class="tg-btn">
                                         <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">
                                         <span>
                                             <img src="{{ asset('front/assets/img/icons/btn_icon_02.svg') }}" alt="icon">
                                             OPEN ACCOUNT
                                         </span>
                                     </a>
-                                    <a href="#contact" class="tg-btn tg-btn-two">
+                                    <a href="{{ route('register') }}" class="tg-btn tg-btn-two">
                                         <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">
                                         <span>
                                             <img src="{{ asset('front/assets/img/icons/btn_icon_03.svg') }}" alt="icon">
@@ -51,71 +51,7 @@
             </section>
             <!-- banner-area-end -->
 
-            <!-- features-area -->
-            <section class="features__area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="token__wrap">
-                                <h3 class="title">Token sales progress</h3>
-                                <div class="coin__progress-wrap">
-                                    <ul class="list-wrap coin__progress-title">
-                                        <li><span>Raised</span> 5,723 coin</li>
-                                        <li><span>total coin</span> 3,499,000</li>
-                                    </ul>
-                                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 40%"></div>
-                                    </div>
-                                    <ul class="list-wrap coin__progress-cap">
-                                        <li><span>soft cap</span> 57,000</li>
-                                        <li><span>hard cap</span> 2,500,000</li>
-                                    </ul>
-                                </div>
-                                <div class="countdown__wrap">
-                                    <h5 class="title">Token sale ends in:</h5>
-                                    <div class="coming-time" data-countdown="2026/12/30"></div>
-                                </div>
-                                <div class="token__btn">
-                                    <a href="#contact" class="tg-btn">
-                                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
-                                        <span>
-                                            <img src="assets/img/icons/btn_icon_03.svg" alt="icon">
-                                            register & buy token
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="token__sales-info">
-                                <h2 class="title">Sales information</h2>
-                                <ul class="list-wrap">
-                                    <li><span>Public sale starts</span>January 01, 2025</li>
-                                    <li><span>Sale ends</span>december 30, 2026</li>
-                                    <li><span>Token supply</span>499,000,000</li>
-                                    <li><span>T. allocated for ico</span>299,000,000</li>
-                                    <li><span>hard cap</span>2,500,000</li>
-                                    <li><span>soft cap</span>57,000</li>
-                                    <li><span>token value</span>1 ETH = 3177.38 CIC</li>
-                                    <li class="payment-method"><span>accepted</span>eth, btc, shiv, crt</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- features-area-end -->
 
-            <!-- marquee-area -->
-            <section class="marquee__area">
-                <div class="slider__marquee clearfix marquee-wrap">
-                    <div class="marquee_mode marquee__group">
-                        <h6 class="marquee__item">Most powerful & optimistic solutions for ICO platform</h6>
-                        <h6 class="marquee__item">Most powerful & optimistic solutions for ICO platform</h6>
-                    </div>
-                </div>
-            </section>
-            <!-- marquee-area-end -->
 
         </div>
         <!-- area-bg-end -->
