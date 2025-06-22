@@ -10,7 +10,7 @@ class SubBotTrader extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id', 'bot_trader_id', 'amount', 'status'
+        'user_id', 'bot_trader_id', 'amount', 'profit', 'status'
     ];
 
     public function botTrader()

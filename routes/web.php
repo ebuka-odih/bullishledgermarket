@@ -7,6 +7,7 @@ use App\Http\Controllers\TradeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WithdrawalController;
+use App\Http\Controllers\SubBotTraderController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.index')->name('index');
@@ -37,6 +38,11 @@ Route::group(['middleware' => ['auth', 'verified'], 'prefix' => 'user', 'as' => 
 
     Route::get('copy-trading', [CopyTradingController::class, 'index'])->name('copyTrading.index');
     Route::post('store/copy-trading', [CopyTradingController::class, 'store'])->name('copyTrading.store');
+
+    // AI Trader routes
+    Route::get('ai-trader', [SubBotTraderController::class, 'index'])->name('aiTrader.index');
+    Route::post('ai-trader/store', [SubBotTraderController::class, 'store'])->name('aiTrader.store');
+    Route::get('ai-trader/history', [SubBotTraderController::class, 'history'])->name('aiTrader.history');
 
 });
 

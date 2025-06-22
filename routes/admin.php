@@ -43,4 +43,9 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::post('bot_trader/store', [\App\Http\Controllers\Admin\BotTraderController::class, 'store'])->name('bot_trader.store');
     Route::put('bot_trader/update/{id}', [\App\Http\Controllers\Admin\BotTraderController::class, 'update'])->name('bot_trader.update');
 
+    // SubBotTrader admin routes
+    Route::get('sub-bot-trader', [\App\Http\Controllers\Admin\SubBotTraderController::class, 'index'])->name('sub_bot_trader.index');
+    Route::post('sub-bot-trader/{id}/fund-profit', [\App\Http\Controllers\Admin\SubBotTraderController::class, 'fundProfit'])->name('sub_bot_trader.fund_profit');
+    Route::post('sub-bot-trader/{id}/update-profit', [\App\Http\Controllers\Admin\SubBotTraderController::class, 'updateProfit'])->name('sub_bot_trader.update_profit');
+
 });

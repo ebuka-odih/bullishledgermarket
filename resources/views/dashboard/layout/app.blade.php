@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,6 +57,11 @@
           <li class="nav-item dropdown">
               <a class="nav-link" href="{{ route('user.copyTrading.index') }}" >
               Copy Trading
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link" href="{{ route('user.aiTrader.index') }}" >
+              AI Trading
             </a>
           </li>
 

@@ -146,6 +146,12 @@
                 <span class="ml-3" sidebar-toggle-item>Copied Trades</span>
             </a>
           </li>
+          <li>
+            <a href="{{ route('admin.sub_bot_trader.index') }}" class="{{ request()->routeIs('admin.sub_bot_trader.index') ? 'active' : '' }} flex items-center p-2 text-base text-gray-900 rounded-lg hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700">
+                <svg class="w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v10H5V5zm2 2v6h6V7H7z"></path></svg>
+                <span class="ml-3" sidebar-toggle-item>SubBot Subscriptions</span>
+            </a>
+          </li>
             <hr>
              <li>
             <a href="{{ route('admin.openTrades') }}" class="{{ request()->routeIs('admin.openTrades') ? "active" : '' }} flex items-center p-2 text-base text-gray-900 rounded-lg hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700">
@@ -184,7 +190,7 @@
                 <span class="ml-3" sidebar-toggle-item>Ai Trader</span>
             </a>
           </li>
-
+        
             <hr>
           <li>
             <a href="{{ route('admin.user.index') }}" class="{{ request()->routeIs('admin.user.index') ? "active" : '' }} flex items-center p-2 text-base text-gray-900 rounded-lg hover:bg-gray-100 group dark:text-gray-200 dark:hover:bg-gray-700 ">

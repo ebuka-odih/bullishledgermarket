@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
 
         $this->call(AdminSeeder::class);
         $this->call(TradePairSeeder::class);
+        $this->call(BotTraderSeeder::class);
     }
 }
