@@ -89,7 +89,8 @@
         <nav class="tgmobile__menu-box">
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
-                <a href="{{ route('index') }}"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                <h3 style="">{{ env('APP_NAME') }}</h3>
+{{--                <a href="{{ route('index') }}"><img src="assets/img/logo/logo.svg" alt="Logo"></a>--}}
             </div>
             <div class="tgmobile__search">
                 <form action="#">
@@ -125,18 +126,18 @@
                         - 2025</p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="footer__view-channel">
-                    <span>VIP channel:</span>
-                    <a href="https://web.telegram.org/" target="_blank" class="tg-btn">
-                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
-                        <span>
-                                <img src="assets/img/icons/btn_icon_04.svg" alt="">
-                                telegram
-                            </span>
-                    </a>
-                </div>
-            </div>
+{{--            <div class="col-md-6">--}}
+{{--                <div class="footer__view-channel">--}}
+{{--                    <span>VIP channel:</span>--}}
+{{--                    <a href="https://web.telegram.org/" target="_blank" class="tg-btn">--}}
+{{--                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">--}}
+{{--                        <span>--}}
+{{--                                <img src="assets/img/icons/btn_icon_04.svg" alt="">--}}
+{{--                                telegram--}}
+{{--                            </span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </div>
 </footer>

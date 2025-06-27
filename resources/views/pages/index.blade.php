@@ -224,96 +224,9 @@ Our developers put special focus on making sure your account is easy to manage a
             <!-- advisors-area -->
             <section class="advisors__area">
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6">
-                            <div class="section__title text-center mb-80">
-                                <span class="sub-title">
-                                    <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0H0V1V15V16H2V13.25L7.13991 8.75258C7.59524 8.35417 7.59524 7.64584 7.13991 7.24742L2 2.75V0Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                    our advisors
-                                </span>
-                                <h2 class="title">Meet with our avengers</h2>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="row justify-content-center gutter-y-30 gutter-50">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="advisors__item">
-                                <div class="advisors__thumb">
-                                    <img src="assets/img/images/advisors_img01.jpg" alt="img">
-                                </div>
-                                <div class="advisors__content">
-                                    <div class="advisors__content-left">
-                                        <span>founder</span>
-                                        <h3 class="title">Javier C. Emerson</h3>
-                                    </div>
-                                    <ul class="list-wrap advisors__social">
-                                        <li>
-                                            <a href="https://telegram.org/" target="_blank">
-                                                <img src="assets/img/icons/telegram.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/" target="_blank">
-                                                <img src="assets/img/icons/youtube.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="advisors__item">
-                                <div class="advisors__thumb">
-                                    <img src="assets/img/images/advisors_img02.jpg" alt="img">
-                                </div>
-                                <div class="advisors__content">
-                                    <div class="advisors__content-left">
-                                        <span>CEO</span>
-                                        <h3 class="title">Diego H. Redmond</h3>
-                                    </div>
-                                    <ul class="list-wrap advisors__social">
-                                        <li>
-                                            <a href="https://telegram.org/" target="_blank">
-                                                <img src="assets/img/icons/telegram.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/" target="_blank">
-                                                <img src="assets/img/icons/youtube.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="advisors__item">
-                                <div class="advisors__thumb">
-                                    <img src="assets/img/images/advisors_img03.jpg" alt="img">
-                                </div>
-                                <div class="advisors__content">
-                                    <div class="advisors__content-left">
-                                        <span>Head advisor</span>
-                                        <h3 class="title">Julian T. Beaumont</h3>
-                                    </div>
-                                    <ul class="list-wrap advisors__social">
-                                        <li>
-                                            <a href="https://telegram.org/" target="_blank">
-                                                <img src="assets/img/icons/telegram.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/" target="_blank">
-                                                <img src="assets/img/icons/youtube.svg" alt="icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="{{ asset('img2/5.jpeg') }}" alt="">
                     </div>
                 </div>
             </section>
@@ -413,50 +326,13 @@ Our developers put special focus on making sure your account is easy to manage a
                         <div class="col-lg-6">
                             <div class="summary__content">
                                 <div class="section__title mb-50">
-                                    <span class="sub-title">
-                                        <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M2 0H0V1V15V16H2V13.25L7.13991 8.75258C7.59524 8.35417 7.59524 7.64584 7.13991 7.24742L2 2.75V0Z"
-                                                fill="currentColor" />
-                                        </svg>
-                                        summary of ico
-                                    </span>
-                                    <h2 class="title">Token allocation summary</h2>
+
+                                    <h2 class="title">Automate your trading</h2>
                                 </div>
                                 <div class="progress__wrap">
-                                    <div class="progress__item">
-                                        <div class="progress__item-top">
-                                            <h3 class="progress__title">Token Offer - <span>46.000.000</span></h3>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" style="width: 75%;"></div>
-                                        </div>
-                                    </div>
-                                    <div class="progress__item">
-                                        <div class="progress__item-top">
-                                            <h3 class="progress__title">UTO Bounties - <span>11.500.000</span></h3>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" style="width: 90%;"></div>
-                                        </div>
-                                    </div>
-                                    <div class="progress__item">
-                                        <div class="progress__item-top">
-                                            <h3 class="progress__title">UTO Community Reserve - <span>423.000.000</span></h3>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" style="width: 60%;"></div>
-                                        </div>
-                                    </div>
-                                    <div class="progress__item">
-                                        <div class="progress__item-top">
-                                            <h3 class="progress__title">UTO Community Building - <span>23.000.000</span></h3>
-                                        </div>
-                                        <div class="progress">
-                                            <div class="progress-bar" style="width: 80%;"></div>
-                                        </div>
-                                    </div>
+                                    <p>
+                                        Our integration with Trading robots is fully automated with your account, launched in minutes.  Start with the AI strategy or create your own in just a few clicks, a top feature already in use by 50M+ traders. will allow you to access both supercharged charting and advanced trading tools. Gain unparalleled insights for informed decision-making.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -473,7 +349,7 @@ Our developers put special focus on making sure your account is easy to manage a
             <div class="container">
                 <div class="counter__item-wrap">
                     <div class="row gx-0">
-                        <img src="{{ asset('img2/5.jpeg') }}" alt="">
+                       @include('pages.layout.plan')
                     </div>
                 </div>
                 <div class="counter__btn text-center">
@@ -496,99 +372,116 @@ Our developers put special focus on making sure your account is easy to manage a
                     <div class="col-lg-6">
                         <div class="faq__content">
                             <div class="section__title mb-20">
-                                <span class="sub-title">
-                                    <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2 0H0V1V15V16H2V13.25L7.13991 8.75258C7.59524 8.35417 7.59524 7.64584 7.13991 7.24742L2 2.75V0Z" fill="currentColor" />
-                                    </svg>
-                                    available platform
-                                </span>
-                                <h2 class="title">Our Iconic is available in multi-device</h2>
+                                <h2 class="titl">Unusual options activity</h2>
                             </div>
-                            <p>Try it now for free on iOS, Android, PC, Web - whatever your flavor, we’ve got you covered.</p>
-                            <ul class="download__icon-wrap list-wrap">
-                                <li>
-                                    <a href="#!" class="download__icon">
-                                        <div class="icon-shape">
-                                            <img src="assets/img/icons/download_icon_shape.svg" alt="icon">
-                                        </div>
-                                        <img src="assets/img/icons/ios.svg" alt="icon" class="icon">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="download__icon">
-                                        <div class="icon-shape">
-                                            <img src="assets/img/icons/download_icon_shape.svg" alt="icon">
-                                        </div>
-                                        <img src="assets/img/icons/android.svg" alt="icon" class="icon">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="download__icon">
-                                        <div class="icon-shape">
-                                            <img src="assets/img/icons/download_icon_shape.svg" alt="icon">
-                                        </div>
-                                        <img src="assets/img/icons/pc.svg" alt="icon" class="icon">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#!" class="download__icon">
-                                        <div class="icon-shape">
-                                            <img src="assets/img/icons/download_icon_shape.svg" alt="icon">
-                                        </div>
-                                        <img src="assets/img/icons/web.svg" alt="icon" class="icon">
-                                    </a>
-                                </li>
-                            </ul>
+                            <p>Detect market shifts, get live insights on high-volume trades, and view institutional block buys and sales</p>
+                            <p></p>
+                            <div>
+                                <img src="{{ asset('img2/activity.jpeg') }}" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="faq__wrap">
+                            <h2>FAQ</h2>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            How does blockchain ensure transaction security?
+                                            How do I start trading?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Once a transaction is recorded in a block and added to the blockchain, it cannot be altered without consensus from the network, ensuring data integrity. Ensure that all participants agree on the validity of transac-tions before they are added to the blockchain.</p>
+                                            <p>
+                                                -Register on the platform, make a minimum deposit of $5000 dollars or euros, choose a trading instrument you want to trade on, set the trade volume and other details, and confirm the order.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How do you store cryptocurrencies securely?
+                                            Is BullishLedgerMarket safe?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Once a transaction is recorded in a block and added to the blockchain, it cannot be altered without consensus from the network, ensuring data integrity. Ensure that all participants agree on the validity of transac-tions before they are added to the blockchain.</p>
+                                            <p>
+                                           -Yes. BullishLedgerMarket operates in a regulated environment and provides the risk mitigation tools necessary to make trading on our platform safe as possible.
+
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What factors influence cryptocurrency price volatility?
+                                            What is the minimum deposit amount?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Once a transaction is recorded in a block and added to the blockchain, it cannot be altered without consensus from the network, ensuring data integrity. Ensure that all participants agree on the validity of transac-tions before they are added to the blockchain.</p>
+                                            <p>
+                                                -The Minimum deposit amount is $5000 dollars or euros.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            What are the benefits of decentralization?
+                                            What do you need to open a trading account?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            <p>Once a transaction is recorded in a block and added to the blockchain, it cannot be altered without consensus from the network, ensuring data integrity. Ensure that all participants agree on the validity of transac-tions before they are added to the blockchain.</p>
+                                            <p>
+                                                -All you have to do to open a trading account and start trading is register and deposit the minimum start up. You must be up to the legal age of 18 and must have a government issued ID card for KYC verification.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                                            How can I deposit and withdraw?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                -To deposit and withdraw funds, you'll need to access your account directly. BullishLedgerMarket does not handle deposits and withdrawals. While you may see buttons for withdrawal and deposit within the account dashboard, clicking on them will redirect you to the deposit or withdrawal webpage. From there, you'll be able to manage your deposits and withdrawals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseFour">
+                                            How does BullishLedgerMarket AI trading strategy work?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                -BullishLedgerMarket trading strategy operates on the Dollar-Cost Averaging (DCA) principle, which involves dividing investments into periodic buy or sell trades to achieve a better average entry price. In simpler terms, this means spreading out your investments over time to minimize the impact of market volatility. Our AI automatically adjusts this strategy, ensuring it is just right for any asset. You can launch the bot AI prepared for you in one button, but you can also customize it manually if you want to be in control.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+                                            What happens if I lose my money?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                -Trading is risky. It is impossible to eliminate the possibility of losses completely. We try to offer the most profitable strategies, but due to the market's unpredictability, even some of them may turn out to be less beneficial than we expected. We have a risk mitigation system which guarantee at least 92% money back policy in 10 working days.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -640,9 +533,9 @@ Our developers put special focus on making sure your account is easy to manage a
                                 </div>
                                 <div class="submit__btn text-center">
                                     <button type="submit" class="tg-btn tg-btn-two">
-                                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
+                                        <img src="front/assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
                                         <span>
-                                            <img src="assets/img/icons/btn_icon_03.svg" alt="">
+                                            <img src="front/assets/img/icons/btn_icon_03.svg" alt="">
                                             submit now
                                         </span>
                                     </button>
@@ -652,8 +545,8 @@ Our developers put special focus on making sure your account is easy to manage a
                         </div>
                     </div>
                     <div class="contact__shape-wrap">
-                        <img src="assets/img/images/contact_shape01.png" alt="img" class="alltuchtopdown">
-                        <img src="assets/img/images/contact_shape02.png" alt="img">
+                        <img src="{{ asset('front/assets/img/images/contact_shape01.png') }}" alt="img" class="alltuchtopdown">
+                        <img src="{{ asset('front/assets/img/images/contact_shape02.png') }}" alt="img">
                     </div>
                 </div>
             </div>
