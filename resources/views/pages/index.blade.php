@@ -12,7 +12,8 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-0 order-lg-2">
                             <div class="banner__img text-center">
-                                <img src="{{ asset('front/assets/img/images/banner_img.svg') }}" alt="img" class="alltuchtopdown">
+                                <img src="{{ asset('img2/banner.gif') }}" alt="img" class="alltuchtopdown">
+{{--                                <img src="{{ asset('front/assets/img/images/banner_img.svg') }}" alt="img" class="alltuchtopdown">--}}
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -30,14 +31,14 @@
                                 </p>
                                 <div class="banner__btn">
                                     <a href="{{ route('register') }}" class="tg-btn">
-                                        <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">
+{{--                                        <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">--}}
                                         <span>
-                                            <img src="{{ asset('front/assets/img/icons/btn_icon_02.svg') }}" alt="icon">
+{{--                                            <img src="{{ asset('front/assets/img/icons/btn_icon_02.svg') }}" alt="icon">--}}
                                             OPEN ACCOUNT
                                         </span>
                                     </a>
                                     <a href="{{ route('register') }}" class="tg-btn tg-btn-two">
-                                        <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">
+{{--                                        <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}" alt="icon" class="right_arrow">--}}
                                         <span>
                                             <img src="{{ asset('front/assets/img/icons/btn_icon_03.svg') }}" alt="icon">
                                             OPEN DEMO ACCOUNT
@@ -79,7 +80,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="choose__item text-center">
                                 <div class="choose__icon">
-                                    <img src="{{ asset('front/assets/img/icons/choose-icon01.svg') }}" alt="icon">
+                                    <img src="{{ asset('img2/3.jpeg') }}" alt="icon">
                                 </div>
                                 <div class="choose__content">
                                     <h4 class="title">Deposit to start trading</h4>
@@ -91,7 +92,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="choose__item text-center">
                                 <div class="choose__icon">
-                                    <img src="{{ asset('front/assets/img/icons/choose-icon02.svg') }}" alt="icon">
+                                    <img src="{{ asset('img2/4.jpeg') }}" alt="icon">
                                 </div>
                                 <div class="choose__content">
                                     <h4 class="title">Increased profitability</h4>
@@ -104,7 +105,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="choose__item text-center">
                                 <div class="choose__icon">
-                                    <img src="{{ asset('front/assets/img/icons/choose-icon03.svg') }}" alt="icon">
+                                    <img src="{{ asset('img2/2.jpeg') }}" alt="icon">
                                 </div>
                                 <div class="choose__content">
                                     <h4 class="title">Withdraw & Reinvest</h4>
@@ -191,7 +192,7 @@
                                 <h2 class="title">Online trading account</h2>
                             </div>
                             <div class="roadMap__img">
-                                <img src="{{ asset('front/assets/img/images/roadmap_img.png') }}" alt="img" class="alltuchtopdown">
+                                <img src="{{ asset('img2/xl_redesign.webp') }}" alt="img" class="alltuchtopdown">
                             </div>
                             <div class="roadMap__shape">
                                 <img src="{{ asset('front/assets/img/images/roadmap_shape.png') }}" alt="shape">
@@ -415,7 +416,7 @@ Our developers put special focus on making sure your account is easy to manage a
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="summary__img">
-                                <img src="assets/img/images/summary_img.png" alt="img">
+                                <img src="{{ asset('img2/1.webp') }}" alt="img">
                             </div>
                         </div>
                         <div class="col-lg-6">
