@@ -11,8 +11,8 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6 order-0 order-lg-2">
-                            <div class="banner__img text-center">
-                                <img src="{{ asset('img2/banner.gif') }}" alt="img" class="alltuchtopdown">
+                            <div style="background: black;" class="banner__img text-center">
+                                <img style="background: black;" src="{{ asset('img2/banner.gif') }}" alt="img" class="alltuchtopdown">
 {{--                                <img src="{{ asset('front/assets/img/images/banner_img.svg') }}" alt="img" class="alltuchtopdown">--}}
                             </div>
                         </div>
@@ -133,39 +133,30 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img01.png') }}" alt="img">
+                                        <img src="{{ asset('img2/etoro.svg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img02.png') }}" alt="img">
+                                        <img src="{{ asset('img2/xm.svg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img03.png') }}" alt="img">
+                                        <img src="{{ asset('img2/exness.svg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img04.png') }}" alt="img">
+                                        <img src="{{ asset('img2/ic_markets.svg') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img05.png') }}" alt="img">
+                                        <img src="{{ asset('img2/alpari.svg') }}" alt="img">
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img06.png') }}" alt="img">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="brand__item">
-                                        <img src="{{ asset('front/assets/img/brand/brand_img03.png') }}" alt="img">
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -482,27 +473,7 @@ Our developers put special focus on making sure your account is easy to manage a
             <div class="container">
                 <div class="counter__item-wrap">
                     <div class="row gx-0">
-                        <div class="col-lg-4">
-                            <div class="counter__item">
-                                <span class="title">pre-sales</span>
-                                <h2 class="count"><span class="odometer" data-count="25"></span>%</h2>
-                                <p>early bonus</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="counter__item">
-                                <span class="title">ICO SALE-WEEK 1</span>
-                                <h2 class="count"><span class="odometer" data-count="15"></span>%</h2>
-                                <p>early bonus</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="counter__item">
-                                <span class="title">ICO SALE-WEEK 2</span>
-                                <h2 class="count"><span class="odometer" data-count="1"></span>%</h2>
-                                <p>early bonus</p>
-                            </div>
-                        </div>
+                        <img src="{{ asset('img2/5.jpeg') }}" alt="">
                     </div>
                 </div>
                 <div class="counter__btn text-center">
