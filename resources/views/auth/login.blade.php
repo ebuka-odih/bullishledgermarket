@@ -15,7 +15,7 @@
   <div class="vh-100 d-flex justify-content-center">
     <div class="form-access my-auto">
       <div class="mb-3 d-flex justify-content-center">
-        <img src="{{ asset('img2/logo.png') }}" width="170" height="140" alt="">
+        <img src="{{ asset('img2/logo2.png') }}" width="170" height="140" alt="">
     </div>
 
       <form action="{{ route('login') }}" method="POST">
