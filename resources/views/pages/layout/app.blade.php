@@ -25,6 +25,22 @@
     <link rel="stylesheet" href="{{ asset('front/assets/css/tg-cursor.css') }}">
     <link rel="stylesheet" href="{{ asset('front/assets/css/main.css') }}">
 
+    <script src="//code.jivosite.com/widget/3jZqtmcSsI" async></script>
+
+    <style>
+        .tgmobile__menu .nav-logo img {
+            height: 150px !important;
+        }
+        .tg-header__area .mobile-nav-toggler {
+            position: relative;
+            font-size: 30px;
+            cursor: pointer;
+            line-height: 1;
+            color: var(--tg-color-white-default);
+            /*display: none;*/
+            margin-top: -40px;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,10 +66,10 @@
                 <div class="col-12">
                     <div class="tgmenu__wrap">
                         <nav class="tgmenu__nav">
-                            <div class="logo">
+                            <div  class="log">
                                 <a href="{{ route('index') }}">
-                                    <h3>{{ env('APP_NAME') }}</h3>
-{{--                                    <img src="assets/img/logo/logo.svg" alt="Logo">--}}
+{{--                                    <h3>{{ env('APP_NAME') }}</h3>--}}
+                                    <img style="max-height: 200px; margin-top: -40px" src="{{ asset('img2/logo.png') }}" alt="Logo">
                                 </a>
                             </div>
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
@@ -69,8 +85,8 @@
                                 <ul class="list-wrap">
                                     <li class="header-btn">
                                         <a href="#contact" class="tg-btn">
-                                            <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}"
-                                                 alt="icon" class="right_arrow">
+{{--                                            <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}"--}}
+{{--                                                 alt="icon" class="right_arrow">--}}
                                             <span>
 {{--                                                    <img src="assets/img/icons/btn_icon.svg" alt="">--}}
                                                     try it now
@@ -92,8 +108,11 @@
         <nav class="tgmobile__menu-box">
             <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
             <div class="nav-logo">
-                <h3 style="">{{ env('APP_NAME') }}</h3>
-{{--                <a href="{{ route('index') }}"><img src="assets/img/logo/logo.svg" alt="Logo"></a>--}}
+{{--                <h3 style="">{{ env('APP_NAME') }}</h3>--}}
+                <a href="{{ route('index') }}">
+                <img  src="{{ asset('img2/logo.png') }}" alt="Logo">
+
+                </a>
             </div>
             <div class="tgmobile__search">
                 <form action="#">
