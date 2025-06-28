@@ -59,7 +59,7 @@
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                 <ul class="navigation">
                                     <li class="active"><a href="{{ route('index') }}">Home</a></li>
-                                    <li><a href="#features" class="section-link">Market</a></li>
+                                    <li><a href="{{ route('market') }}" class="section-link">Market</a></li>
                                     <li><a href="{{ route('user.dashboard') }}" class="section-link">Trade</a></li>
                                     <li><a href="#faq" class="section-link">Faq</a></li>
                                     <li><a href="#contact" class="section-link">Help</a></li>
@@ -72,7 +72,7 @@
                                             <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}"
                                                  alt="icon" class="right_arrow">
                                             <span>
-                                                    <img src="assets/img/icons/btn_icon.svg" alt="">
+{{--                                                    <img src="assets/img/icons/btn_icon.svg" alt="">--}}
                                                     try it now
                                                 </span>
                                         </a>
