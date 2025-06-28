@@ -8,9 +8,29 @@
   <title>Crypo</title>
   <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <style>
+        header .navbar-brand img {
+    height: 100px;
+}
+    </style>
 </head>
 
 <body>
+
+
+
+    <header class="light-bb">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="{{ route('index') }}">
+          <img  src="{{ asset('img2/logo3.png') }}" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon ion-md-menu"></i>
+      </button>
+
+    </nav>
+  </header>
+
 
   <div class="vh-100 d-flex justify-content-center">
     <div class="form-access my-auto">
