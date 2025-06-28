@@ -84,7 +84,7 @@
                             <div class="tgmenu__action">
                                 <ul class="list-wrap">
                                     <li class="header-btn">
-                                        <a href="#contact" class="tg-btn">
+                                        <a href="{{ route('login') }}" class="tg-btn">
 {{--                                            <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}"--}}
 {{--                                                 alt="icon" class="right_arrow">--}}
                                             <span>
