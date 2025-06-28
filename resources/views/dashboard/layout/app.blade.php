@@ -24,7 +24,8 @@
     <nav class="navbar navbar-expand-lg">
 
       <a class='navbar-brand' href='{{ route('index') }}'>
-           <h3 style="font-weight: bolder">{{ env('APP_NAME') }}</h3>
+{{--           <h3 style="font-weight: bolder">{{ env('APP_NAME') }}</h3>--}}
+           <img style="height: 70px" src="{{ asset('img2/logo2.png') }}"  height="200"  alt="">
 {{--          <img src="{{ asset('assets/img/logo-dark.svg') }}" alt="logo">--}}
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu"
