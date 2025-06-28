@@ -84,14 +84,18 @@
                             <div class="tgmenu__action">
                                 <ul class="list-wrap">
                                     <li class="header-btn">
-                                        <a href="{{ route('login') }}" class="tg-btn">
-{{--                                            <img src="{{ asset('front/assets/img/icons/btn_right_arrow.svg') }}"--}}
-{{--                                                 alt="icon" class="right_arrow">--}}
-                                            <span>
-{{--                                                    <img src="assets/img/icons/btn_icon.svg" alt="">--}}
-                                                    Get Started
-                                                </span>
-                                        </a>
+                                       @guest
+                                            <a href="{{ route('login') }}" class="tg-btn">
+                                                <span>Get Started</span>
+                                            </a>
+                                        @endguest
+
+                                        @auth
+                                            <a href="{{ route('user.dashboard') }}" class="tg-btn">
+                                                <span>Dashboard</span>
+                                            </a>
+                                        @endauth
+
                                     </li>
                                 </ul>
                             </div>
