@@ -360,21 +360,21 @@ Our developers put special focus on making sure your account is easy to manage a
                        @include('pages.layout.plan')
                     </div>
                 </div>
-                <div class="counter__btn text-center">
-                    <a href="#contact" class="tg-btn">
-                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
-                        <span>
-                            <img src="assets/img/icons/btn_icon_03.svg" alt="">
-                            purchase now
-                        </span>
-                    </a>
-                </div>
+{{--                <div class="counter__btn text-center">--}}
+{{--                    <a href="#contact" class="tg-btn">--}}
+{{--                        <img src="assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">--}}
+{{--                        <span>--}}
+{{--                            <img src="assets/img/icons/btn_icon_03.svg" alt="">--}}
+{{--                            purchase now--}}
+{{--                        </span>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
             </div>
         </section>
         <!-- counter-area-end -->
 
         <!-- faq-area -->
-        <section id="faq" class="faq__area section-py-120">
+        <section style="margin-top: -50px" id="faq" class="faq__area section-py-120">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
