@@ -140,7 +140,7 @@
                     <div class="brand__inner-wrap">
                         <div style="margin-top: -20px" class="row justify-content-center">
                             <div class="col-lg-6">
-                                <h6 class="brand-title">supported by global brands</h6>
+                                <h6 class="brand-title">SUPPORTED BY OUR PARTNERS</h6>
                             </div>
                         </div>
                         <div class="swiper-container brand-active fix">
@@ -540,7 +540,6 @@ Our developers put special focus on making sure your account is easy to manage a
                                 </div>
                                 <div class="submit__btn text-center">
                                     <button type="submit" class="tg-btn tg-btn-two">
-                                        <img src="front/assets/img/icons/btn_right_arrow.svg" alt="icon" class="right_arrow">
                                         <span>
                                             submit now
                                         </span>
