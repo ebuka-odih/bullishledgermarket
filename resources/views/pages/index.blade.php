@@ -519,15 +519,15 @@ Our developers put special focus on making sure your account is easy to manage a
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-8">
-                            <form action="{{ route('contact.store') }}" class="contact__form" method="POST" id="contact-form">
+                            <form action="{{ route('contact.store') }}" class="contact__form" method="POST" id="contact-rm">
                                 @csrf
                                 @if(session('success'))
                                     <div class="alert alert-success text-center">{{ session('success') }}</div>
                                 @endif
-                                @if($errors->any())
+                                @if ($errors->any())
                                     <div class="alert alert-danger">
-                                        <ul class="mb-0">
-                                            @foreach($errors->all() as $error)
+                                        <ul>
+                                            @foreach ($errors->all() as $error)
                                                 <li>{{ $error }}</li>
                                             @endforeach
                                         </ul>
@@ -559,7 +559,7 @@ Our developers put special focus on making sure your account is easy to manage a
                                     </button>
                                 </div>
                             </form>
-                            <p class="ajax-response mb-0 text-center"></p>
+                            <!-- <p class="ajax-response mb-0 text-center"></p> -->
                         </div>
                     </div>
 {{--                    <div class="contact__shape-wrap">--}}

@@ -23,6 +23,6 @@ class ContactController extends Controller
         // Send mail to admin
         Mail::to('admin@bullishledgermarket.com')->send(new ContactFormMail($contact));
 
-        return back()->with('success', 'Your message has been sent successfully!');
+        return redirect()->back()->with('success', 'Your message has been sent successfully!');
     }
 } 
