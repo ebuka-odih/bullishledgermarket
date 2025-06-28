@@ -519,24 +519,37 @@ Our developers put special focus on making sure your account is easy to manage a
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-8">
-                            <form action="https://themeadapt.com/tf/ironik/assets/mail.php" class="contact__form" method="POST" id="contact-form">
+                            <form action="{{ route('contact.store') }}" class="contact__form" method="POST" id="contact-form">
+                                @csrf
+                                @if(session('success'))
+                                    <div class="alert alert-success text-center">{{ session('success') }}</div>
+                                @endif
+                                @if($errors->any())
+                                    <div class="alert alert-danger">
+                                        <ul class="mb-0">
+                                            @foreach($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                            @endforeach
+                                        </ul>
+                                    </div>
+                                @endif
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-grp">
                                             <label for="name">Full name</label>
-                                            <input id="name" name="name" type="text" placeholder="E.g. Jhon">
+                                            <input id="name" name="name" type="text" placeholder="E.g. Jhon" value="{{ old('name') }}">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-grp">
                                             <label for="email">Email address</label>
-                                            <input id="email" name="email" type="email" placeholder="E.g. Jhon">
+                                            <input id="email" name="email" type="email" placeholder="E.g. Jhon" value="{{ old('email') }}">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-grp">
                                     <label for="message">Message</label>
-                                    <textarea name="message" id="message" placeholder="Let us know"></textarea>
+                                    <textarea name="message" id="message" placeholder="Let us know">{{ old('message') }}</textarea>
                                 </div>
                                 <div class="submit__btn text-center">
                                     <button type="submit" class="tg-btn tg-btn-two">

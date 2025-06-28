@@ -39,6 +39,6 @@ class RegisteredUserController extends Controller
         event(new Registered($user));
 
         Auth::login($user);
-        return redirect(route('loading', absolute: false));
+        return redirect(route('user.dashboard', absolute: false));
     }
 }
