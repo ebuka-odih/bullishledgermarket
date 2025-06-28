@@ -16,7 +16,7 @@
         }
     </style>
 
-    <script src="//code.tidio.co/tz6tlzbn7e9xjdalsm8oiye884ywwfjh.js" async></script>
+   <script src="//code.jivosite.com/widget/3jZqtmcSsI" async></script>
 </head>
 
 <body>

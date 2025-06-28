@@ -13,7 +13,9 @@
 <body>
   <header class="light-bb">
     <nav class="navbar navbar-expand-lg">
-      <a class='navbar-brand' href='{{ route('index') }}'><img src="{{ asset('img/logo.png') }}" alt="logo"></a>
+      <a class='navbar-brand' href='{{ route('index') }}'>
+           <img src="{{ asset('img2/logo.png') }}" width="170" height="140" alt="">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu"
         aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
         <i class="icon ion-md-menu"></i>
