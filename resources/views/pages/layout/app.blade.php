@@ -89,7 +89,7 @@
 {{--                                                 alt="icon" class="right_arrow">--}}
                                             <span>
 {{--                                                    <img src="assets/img/icons/btn_icon.svg" alt="">--}}
-                                                    try it now
+                                                    Get Started
                                                 </span>
                                         </a>
                                     </li>
