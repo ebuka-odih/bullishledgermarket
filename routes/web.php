@@ -46,10 +46,10 @@ Route::group(['middleware' => ['auth', 'verified'], 'prefix' => 'user', 'as' => 
     Route::get('ai-trader/history', [SubBotTraderController::class, 'history'])->name('aiTrader.history');
 
 });
-
-Route::get('/dashboard', function () {
-    return view('dashboard.index');
-})->middleware(['auth'])->name('dashboard');
+ Route::get('dashboard', [UserController::class, 'dashboard'])->name('dashboard');
+//Route::get('/dashboard', function () {
+//    return view('dashboard.index');
+//})->middleware(['auth'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
