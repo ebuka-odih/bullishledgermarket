@@ -331,7 +331,7 @@ Our developers put special focus on making sure your account is easy to manage a
                                 <img height="550" src="{{ asset('img2/1.webp') }}" alt="img">
                             </div>
                         </div>
-                        <div style="margin-left: -40px" class="col-lg-6">
+                        <div  class="col-lg-6">
                             <div class="summary__content">
                                 <div class="section__title mb-50">
 
