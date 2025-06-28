@@ -51,15 +51,18 @@
                     <div class="tgmenu__wrap">
                         <nav class="tgmenu__nav">
                             <div class="logo">
-                                <a href="index-2.html"><img src="assets/img/logo/logo.svg" alt="Logo"></a>
+                                <a href="{{ route('index') }}">
+                                    <h3>{{ env('APP_NAME') }}</h3>
+{{--                                    <img src="assets/img/logo/logo.svg" alt="Logo">--}}
+                                </a>
                             </div>
                             <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                 <ul class="navigation">
-                                    <li class="active"><a href="index-2.html">Home</a></li>
-                                    <li><a href="#features" class="section-link">features</a></li>
-                                    <li><a href="#roadmap" class="section-link">roadmap</a></li>
-                                    <li><a href="#faq" class="section-link">faq</a></li>
-                                    <li><a href="#contact" class="section-link">Contact</a></li>
+                                    <li class="active"><a href="{{ route('index') }}">Home</a></li>
+                                    <li><a href="#features" class="section-link">Market</a></li>
+                                    <li><a href="{{ route('user.dashboard') }}" class="section-link">Trade</a></li>
+                                    <li><a href="#faq" class="section-link">Faq</a></li>
+                                    <li><a href="#contact" class="section-link">Help</a></li>
                                 </ul>
                             </div>
                             <div class="tgmenu__action">
