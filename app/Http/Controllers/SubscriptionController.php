@@ -23,7 +23,7 @@ class SubscriptionController extends Controller
         $user = Auth::user();
         $package = Package::findOrFail($request->plan_id);
 
-        if ($user->balance <= $package->min_amount) {
+        if ($package->min_amount <= $user->balance) {
             return redirect()->back()->with('error', 'You are not eligible for this plan');
         }
 
